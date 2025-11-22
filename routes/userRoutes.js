@@ -4,7 +4,8 @@ const router = express.Router();
 const { getUsers,
     getUserById, 
     getHello, 
-    getProducts, 
+    getProducts,
+    getProductsById, 
     createUser, 
     updateUser, 
     createProducts, 
@@ -28,6 +29,7 @@ router.get('/users/:id', getUserById);
 
 //PRODUCTS
 router.get('/products', getProducts);
+router.get('/products/:id', getProductsById);
 router.post('/products', createProducts);
 router.put('/products/:id', updateProducts);
 router.delete('/products', deleteProducts);
