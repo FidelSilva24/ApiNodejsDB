@@ -60,7 +60,7 @@ This project is designed to reinforce backend fundamentals while showcasing indu
 
 Create a `.env` file:
 
-`DATABASE_URL="postgresql://fidel:1234@localhost:5432/apinode?schema=public"` 
+`DATABASE_URL="postgresql://maindb:1234@localhost:5432/apinode?schema=public"` 
 
 Adjust user/password to match your setup.
 
